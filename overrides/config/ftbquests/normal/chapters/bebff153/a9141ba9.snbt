@@ -1,0 +1,35 @@
+{
+	x: 5.0d,
+	y: 0.0d,
+	text: [
+		"Flint is SiO2."
+	],
+	dependencies: [
+		"eb00f040"
+	],
+	tasks: [{
+		uid: "c9ecf0cb",
+		type: "item",
+		items: [{
+			id: "gregtech:knife",
+			tag: {
+				DisallowContainerItem: 0b,
+				ench: [{
+					lvl: 2s,
+					id: 20s
+				}],
+				GT.Behaviours: {},
+				HideFlags: 2,
+				GT.Tool: {
+					MaxDurability: 255,
+					AttackDamage: 2.0f,
+					Durability: 0,
+					Material: "gregtech:flint",
+					AttackSpeed: 3.0f
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

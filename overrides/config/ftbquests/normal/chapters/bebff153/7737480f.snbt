@@ -1,0 +1,27 @@
+{
+	title: "Wooooods!",
+	icon: "minecraft:log",
+	x: 2.0d,
+	y: 0.0d,
+	text: [
+		"Get \"logWood\"."
+	],
+	tasks: [{
+		uid: "286aa382",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "logWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any logWood"
+				}
+			}
+		}]
+	}]
+}

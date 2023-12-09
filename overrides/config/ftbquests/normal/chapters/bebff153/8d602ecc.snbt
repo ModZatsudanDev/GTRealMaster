@@ -1,0 +1,27 @@
+{
+	title: "Why do we need saplings?",
+	icon: "minecraft:sapling",
+	x: 2.0d,
+	y: 1.5d,
+	text: [
+		"Look at the quest and you'll see why."
+	],
+	tasks: [{
+		uid: "ffe95097",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "treeSapling",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any treeSapling"
+				}
+			}
+		}]
+	}]
+}

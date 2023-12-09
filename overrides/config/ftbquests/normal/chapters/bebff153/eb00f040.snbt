@@ -1,0 +1,30 @@
+{
+	title: "Any plankWood",
+	icon: "minecraft:planks",
+	x: 3.5d,
+	y: 0.0d,
+	text: [
+		"Anyway,get any plankWood"
+	],
+	dependencies: [
+		"7737480f"
+	],
+	tasks: [{
+		uid: "2314159c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "plankWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any plankWood"
+				}
+			}
+		}]
+	}]
+}

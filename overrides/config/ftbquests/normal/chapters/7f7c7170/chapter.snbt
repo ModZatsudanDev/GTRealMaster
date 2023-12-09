@@ -1,0 +1,7 @@
+{
+	title: "Second Age:Steam Age",
+	icon: "gregtech:machine 1 1",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

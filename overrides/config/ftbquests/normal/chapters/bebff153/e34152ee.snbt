@@ -1,0 +1,22 @@
+{
+	title: "Cobblestone Saw",
+	x: 6.5d,
+	y: 1.5d,
+	text: [
+		"Have you thought about using it for other crafts?",
+		"Too bad, it can only be used to create a Crafting Station."
+	],
+	dependencies: [
+		"3dd866ad",
+		"23c9ee9b"
+	],
+	tasks: [{
+		uid: "fe7e6c09",
+		type: "item",
+		items: [{
+			item: "gtrmcore:meta_item_1"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

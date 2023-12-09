@@ -1,0 +1,19 @@
+{
+	title: "Wood Fiber",
+	x: 3.5d,
+	y: 1.5d,
+	text: [
+		"It's \"Wood Fiber\", not string. Don't make that mistake again."
+	],
+	dependencies: [
+		"8d602ecc",
+		"a9141ba9"
+	],
+	tasks: [{
+		uid: "0e17a8ee",
+		type: "item",
+		items: [{
+			item: "gtrmcore:meta_item_1 1 1"
+		}]
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	title: "Wooden Pickaxe",
+	x: 5.0d,
+	y: 1.5d,
+	text: [
+		"We cut the wood and tie it down!",
+		"But be careful, this guy is poor."
+	],
+	dependencies: [
+		"3dd866ad"
+	],
+	tasks: [{
+		uid: "f836b30e",
+		type: "item",
+		items: [{
+			item: "minecraft:wooden_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	title: "Hello World!",
+	x: 0.0d,
+	y: 0.0d,
+	description: "Good Morning,Hello,Good Evening",
+	text: [
+		"Thank you playing this modpack!"
+	],
+	tasks: [{
+		uid: "bb728015",
+		type: "checkmark",
+		title: "Hello"
+	}]
+}

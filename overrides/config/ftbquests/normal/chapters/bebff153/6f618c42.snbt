@@ -1,0 +1,22 @@
+{
+	title: "Crafting Table?",
+	x: 7.964285714285715d,
+	y: 0.6964285714285765d,
+	text: [
+		"Crafting Table? I don't know anything about that.",
+		"We make Crafting Station."
+	],
+	dependencies: [
+		"6aadcc52",
+		"e34152ee"
+	],
+	tasks: [{
+		uid: "2093ed8f",
+		type: "item",
+		icon: "gregtech:machine 1 1647",
+		items: [{
+			item: "gregtech:machine 1 1647"
+		}],
+		consume_items: false
+	}]
+}

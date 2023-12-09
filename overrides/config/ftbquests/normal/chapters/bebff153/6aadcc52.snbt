@@ -1,0 +1,22 @@
+{
+	title: "Not Soft Wood Mallet.",
+	x: 6.5d,
+	y: 0.0d,
+	text: [
+		"He said it was a wooden hammer. That makes me laugh.",
+		"I wonder if they don't have the knowledge to process stones."
+	],
+	dependencies: [
+		"3dd866ad",
+		"e34152ee"
+	],
+	tasks: [{
+		uid: "8829006d",
+		type: "item",
+		items: [{
+			item: "gtrmcore:meta_item_1 1 2"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}
