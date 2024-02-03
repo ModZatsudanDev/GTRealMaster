@@ -11,8 +11,38 @@
 	},
 	{
 		"type": "oreGen",
-		"identifier": "clay_ore",
+		"identifier": "andesite",
 		"enabled": false,
+		"amount": 10,
+		"size": 33,
+		"minHeight": 0,
+		"maxHeight": 80,
+		"ore": "minecraft:stone:1"
+	},
+	{
+		"type": "oreGen",
+		"identifier": "diorite",
+		"enabled": false,
+		"amount": 10,
+		"size": 33,
+		"minHeight": 0,
+		"maxHeight": 80,
+		"ore": "minecraft:stone:3"
+	},
+	{
+		"type": "oreGen",
+		"identifier": "granite",
+		"enabled": false,
+		"amount": 10,
+		"size": 33,
+		"minHeight": 0,
+		"maxHeight": 80,
+		"ore": "minecraft:stone:5"
+	},
+	{
+		"type": "oreGen",
+		"identifier": "clay_ore",
+		"enabled": true,
 		"amount": 0.5,
 		"size": 20,
 		"minHeight": 60,
@@ -22,7 +52,7 @@
 	{
 		"type": "oreGen",
 		"identifier": "emerald_ore",
-		"enabled": false,
+		"enabled": true,
 		"amount": 6.0,
 		"size": 2,
 		"minHeight": 4,
@@ -32,7 +62,7 @@
 	{
 		"type": "oreGen",
 		"identifier": "sticky_ore",
-		"enabled": false,
+		"enabled": true,
 		"amount": 2.0,
 		"size": 4,
 		"minHeight": 30,
@@ -83,35 +113,5 @@
 			"minecraft:grass",
 			"minecraft:gravel"
 		]
-	},
-	{
-		"type": "oreGen",
-		"identifier": "andesite",
-		"enabled": false,
-		"amount": 10,
-		"size": 33,
-		"minHeight": 0,
-		"maxHeight": 80,
-		"ore": "minecraft:stone:1"
-	},
-	{
-		"type": "oreGen",
-		"identifier": "diorite",
-		"enabled": false,
-		"amount": 10,
-		"size": 33,
-		"minHeight": 0,
-		"maxHeight": 80,
-		"ore": "minecraft:stone:3"
-	},
-	{
-		"type": "oreGen",
-		"identifier": "granite",
-		"enabled": false,
-		"amount": 10,
-		"size": 33,
-		"minHeight": 0,
-		"maxHeight": 80,
-		"ore": "minecraft:stone:5"
 	}
 ]
